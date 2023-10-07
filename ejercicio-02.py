@@ -42,5 +42,5 @@ n, x = map(int, input().split())
     # x: peso maximo de la gondola
 pesos = list(map(int, input().split()))  # lista de pesos de los niños
 
-print(asignar_gondolas(pesos, x))
+print(f'Debe haber un mínimo de {asignar_gondolas(pesos, x)} góndolas')
 

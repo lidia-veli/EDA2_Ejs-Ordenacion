@@ -30,4 +30,4 @@ t = int(input())  # numero de casos de prueba
 for _ in range(1, t*2, 2):
     n = int(input())  # numero de identificadores
     A = list(map(int, input().split()))  # lista de identificadores
-    print(contar_identificadores_unicos(A, n))
+    print(f'Hay {contar_identificadores_unicos(A, n)} identificadores únicos')
